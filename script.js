@@ -1,8 +1,6 @@
 'use strict';
 
-/////////////////////////////////////////////////
-/////////////////////////////////////////////////
-// BANKIST APP
+// APNA_BANK APP
 
 const account1 = {
   owner: 'Aayush Srivastav',
@@ -20,8 +18,8 @@ const account1 = {
     '2020-07-28T23:36:17.929Z',
     '2020-08-01T10:51:36.790Z',
   ],
-  currency: 'EUR',
-  locale: 'pt-PT', // de-DE
+  currency: 'INR',
+  locale: 'en-US', // de-DE
 };
 
 const account2 = {
@@ -189,8 +187,6 @@ const startLogOutTimer = function () {
       labelWelcome.textContent = 'Log in to get started';
       containerApp.style.opacity = 0;
     }
-
-    // Decrease 1s
     time--;
   };
 
@@ -204,14 +200,9 @@ const startLogOutTimer = function () {
   return timer;
 };
 
-///////////////////////////////////////
 // Event handlers
 let currentAccount, timer;
 
-// FAKE ALWAYS LOGGED IN
-// currentAccount = account1;
-// updateUI(currentAccount);
-// containerApp.style.opacity = 100;
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
@@ -247,12 +238,7 @@ btnLogin.addEventListener('click', function (e) {
       options
     ).format(now);
 
-    // const day = `${now.getDate()}`.padStart(2, 0);
-    // const month = `${now.getMonth() + 1}`.padStart(2, 0);
-    // const year = now.getFullYear();
-    // const hour = `${now.getHours()}`.padStart(2, 0);
-    // const min = `${now.getMinutes()}`.padStart(2, 0);
-    // labelDate.textContent = `${day}/${month}/${year}, ${hour}:${min}`;
+  
 
     // Clear input fields
     inputLoginUsername.value = inputLoginPin.value = '';
