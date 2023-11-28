@@ -17,7 +17,7 @@ This application was created as a part of a coding challenge or project. It simu
 
 
 
-Usage
+##Usage
 To use the application, you can log in with one of the provided accounts:
 Aayush Srivastav
 User: as, PIN: 1111
