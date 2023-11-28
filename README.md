@@ -20,7 +20,7 @@ This application was created as a part of a coding challenge or project. It simu
 ## Usage
 To use the application, you can log in with one of the provided accounts:
 </br> Aayush Srivastav:
-User: as, PIN: 1111
- Elon Musk:
-User: em, PIN: 2222
-Once logged in, you can explore the application's features as mentioned in the "Features" section.
+</br> User: as, PIN: 1111
+</br> Elon Musk:
+</br> User: em, PIN: 2222
+</br> Once logged in, you can explore the application's features as mentioned in the "Features" section.
