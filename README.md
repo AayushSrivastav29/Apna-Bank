@@ -1,5 +1,5 @@
 # APNA_BANK APP
-APNA_BANK is a simple online banking application that allows users to perform various banking operations, including checking account balances, making transfers, and more.
+APNA_BANK is an online banking application that allows users to perform various banking operations, including checking account balances, making transfers, and more.
 https://aayushsrivastav-apnabank.netlify.app/
 
 ## Introduction
